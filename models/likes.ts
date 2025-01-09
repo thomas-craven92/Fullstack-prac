@@ -1,8 +1,8 @@
 export interface TonyLikes {
-  name: string
-  rating: number
+  name: string 
+  rating: string | null
 }
 
 export interface Likes extends TonyLikes {
-  id: number
+  id: number | null
 }
